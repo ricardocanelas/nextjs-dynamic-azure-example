@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "start:withPort": "next start -p $PORT",
+    "start:80": "next start -p 8080",
+    "postinstall": "next build"
   },
   "dependencies": {
     "next": "9.3.5",
