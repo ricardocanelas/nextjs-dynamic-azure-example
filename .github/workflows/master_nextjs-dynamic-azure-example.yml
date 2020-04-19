@@ -20,6 +20,9 @@ jobs:
       with:
         node-version: '10.1'
 
+    - name: Remove ./next folder
+      run: rm rv ./next
+
     - name: npm install, build, and test
       run: |
         npm install
