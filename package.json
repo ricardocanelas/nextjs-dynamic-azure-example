@@ -8,6 +8,7 @@
     "start": "next start",
     "start:withPort": "next start -p $PORT",
     "start:80": "next start -p 8080",
+    "init": "next start",
     "postinstall": "next build"
   },
   "dependencies": {
