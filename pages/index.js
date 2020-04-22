@@ -26,7 +26,7 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href='/'>
+          <Link href='/products'>
             <a className="card">
               <h3>404</h3>
               <p>Everti deleniti quo cu, primis accumsan temporibus an duo. Omnes prompta lucilius et vel.</p>
