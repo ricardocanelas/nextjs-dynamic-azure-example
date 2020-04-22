@@ -1,50 +1,29 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default function Home() {
+export default function About() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>About Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          About Page
         </h1>
 
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
 
         <div className="grid">
-          <Link href='/about'>
-            <a className="card">
-              <h3>About</h3>
-              <p>Lorem ipsum dolor sit amet, ex facer falli vel. Vim adipiscing dissentias at, utinam possit in sed.</p>
-            </a>
-          </Link>
-
           <Link href='/'>
             <a className="card">
-              <h3>404</h3>
-              <p>Everti deleniti quo cu, primis accumsan temporibus an duo. Omnes prompta lucilius et vel.</p>
+              Return
             </a>
           </Link>
-
         </div>
       </main>
 
-      <footer>
-        <a
-          href="https://zeit.co?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
-        </a>
-      </footer>
 
       <style jsx>{`
         .container {
