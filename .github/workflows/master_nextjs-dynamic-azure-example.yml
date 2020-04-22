@@ -33,5 +33,4 @@ jobs:
       with:
         app-name: 'nextjs-dynamic-azure-example'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_26932243dcf94a8fb5f228de17a905b6 }}
-        package: .
+        publish-profile: ${{ secrets.AZURE_APPSERVICE_PUBLISH_PROFILE }}
